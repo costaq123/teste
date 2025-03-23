@@ -1,79 +1,185 @@
 .cabeçario {
+
   background-color: #ffffff;
+
   color: 000000;
+
   display: flex;
+
   justify-content: space-around;
+
   margin: 5px 0px;
+
   font-size: 20px;
+
+}
+
+
+
+
+
+.menu-disciplina {
+
+  width: 20%;
+
+  display: inline-block;
+
+}
+
+
+
+#menu-toggle {
+
+  display: none;
+
+}
+
+
+
+.lista-vertical {
+
+  display: none;
+
+  position: absolute;
+
+  background-color: #104063;
+
+  box-shadow: 0 2px 5px var(#104063);
+
+  min-width: 190px;
+
+  z-index: 1;
+
+  left: 1rem;
+
+  top: 100%;
+
+
+
+}
+
+
+
+.lista-vertical a {
+
+  color: rgb(255, 255, 255);
+
+  padding: 0, 75rem 1rem;
+
+  text-decoration: none;
+
+  font-size: 2rem;
+
+  display: block;
+
+  text-align: center;
+
+
+
+}
+
+
+
+.lista-vertical a:hover {
+
+  background-color: #3cb4bd;
+
+}
+
+
+
+#menu-toggle:checked~.lista-vertical {
+
+  display: block;
+
+}
+
+
+
+#menu-toggle:checked+.botao-disciplinas {
+
+  background-color: rgb(255, 255, 255);
+
+}
+
+.parte-azul {
+
+  margin: 4px 6px;
+
+}
+
+
+
+img.parte-azul {
+
+  width: 99%;
+
+}
+
+
+
+.imagem-perfil {
+
+  display: inline-block;
+
+  margin: -14px 36px;
+
 }
 
 
 
 .texto-1 {
+
   display: inline-block;
-  margin: 0px 20px;
+
+  margin: 0px 56px;
+
 }
+
 
 
 .imagem-perfil {
+
   display: inline-block;
+
   margin: -14px 36px;
+
 }
 
-.parte-azul {
-  margin: 4px 6px;
+
+
+a {
+
+  text-decoration: none;
+
+  color: #104063;
+
 }
 
-img.parte-azul {
-  width: 99%;
-}
 
-.texto-em-cima {
+
+.inicio11 {
+
+  background-color: #104063;
+
   TEXT-ALIGN: center;
-  color: #294887;
-  font-size: 27px;
-}
 
-.texto-2 {
-  background-color: #EBECEE;
-  color: #294887;
-  display: flex;
-  justify-content: space-around;
-  margin: 5px 0px;
-  font-size: 20px;
-}
-
-.texto-em-baixo {
-  TEXT-ALIGN: center;
-  color: #294887;
-  font-size: 27px;
-}
-
-
-.ajudar {
-  background-color: #EBECEE;
-  color: #294887;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-}
-
-.texto-final {
-  background-color: #124366;
   color: #ffffff;
-  font-size: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: space-around;
-  flex-wrap: wrap
-} 
 
-.texto-final-5{
-  margin: 53px;
-  display: flex;
-  align-content: center;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+  font-size: 27px;
+
+}
+
+
+
+.texto-em-cima1 {
+
+  TEXT-ALIGN: center;
+
+  color: #104063;
+
+  font-size: 27px;
+
+  margin: 17px;
+
 }
